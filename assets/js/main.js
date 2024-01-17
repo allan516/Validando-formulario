@@ -35,11 +35,11 @@ class ValidaFormulario {
             valid = false;
             this.createError(password, '* Senha precisa estar entre 6 e 12 caracteres.');
         }
-        return valid = true;
+        return valid;
     }
 
     isValid() {
-        let valid = false;
+        let valid = true;
 
         for(let errorText of this.formulario.querySelectorAll('.error-text')) {
             errorText.remove();
@@ -58,7 +58,7 @@ class ValidaFormulario {
             }
         }
 
-        return valid = true;
+        return valid;
     }
     
     validaUsuario(field) {
