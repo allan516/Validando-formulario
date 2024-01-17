@@ -35,7 +35,7 @@ class ValidaFormulario {
             valid = false;
             this.createError(password, '* Senha precisa estar entre 6 e 12 caracteres.');
         }
-        return valid;
+        return valid = true;
     }
 
     isValid() {
@@ -58,7 +58,7 @@ class ValidaFormulario {
             }
         }
 
-        return valid;
+        return valid = true;
     }
     
     validaUsuario(field) {
