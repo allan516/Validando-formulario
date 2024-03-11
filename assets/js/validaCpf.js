@@ -46,12 +46,4 @@ class ValidaCpf {
 
 
 
-// const validaCpf = new ValidaCpf('05972947986');
-// console.log(validaCpf.valida());
 
-
-// if(validaCpf.valida()) {
-//     console.log('CPF válido.');
-// } else {
-//     console.log('CPF inválido.')
-// }
